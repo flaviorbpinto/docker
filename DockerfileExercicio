@@ -1,0 +1,3 @@
+FROM nginx:alpine
+RUN echo "<h1>Hello ze ruela</h1>" | tee /usr/share/nginx/html/index.html
+EXPOSE 80
